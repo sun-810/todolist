@@ -1,5 +1,4 @@
-from flask import Flask, request, jsonify
-from flask import render_template
+from flask import Flask, request, jsonify, render_template
 
 app = Flask(__name__)
 todos = []  # 메모리에 To-Do 리스트 저장 (나중에 DB로 확장 가능)
